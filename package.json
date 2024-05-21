@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@chromatic-com/playwright": "^0.6.7",
     "@playwright/test": "^1.44.0",
-    "@types/node": "^20.12.12"
+    "@types/node": "^20.12.12",
+    "chromatic": "^11.3.5"
   }
 }

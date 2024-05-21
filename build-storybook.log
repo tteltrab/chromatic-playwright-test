@@ -1,0 +1,28 @@
+@storybook/cli v8.1.1
+
+info => Cleaning outputDir: ..\..\AppData\Local\Temp\chromatic--71136-ahgFaTZ66y6R
+info => Loading presets
+info => Building manager..
+WARN unable to find package.json for @chromatic-com/shared-e2e
+info => Manager built (279 ms)
+info => Building preview..
+info Addon-docs: using MDX3
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+TypeError: Cannot read properties of null (reading 'init')
+    at .\node_modules\@storybook\csf-tools\dist\index.js:17:3363
+    at Array.forEach (<anonymous>)
+    at enter (.\node_modules\@storybook\csf-tools\dist\index.js:17:3176)
+    at NodePath._call (.\node_modules\@babel\traverse\lib\path\context.js:46:20)
+    at NodePath.call (.\node_modules\@babel\traverse\lib\path\context.js:36:17)
+    at NodePath.visit (.\node_modules\@babel\traverse\lib\path\context.js:82:31)
+    at TraversalContext.visitQueue (.\node_modules\@babel\traverse\lib\context.js:89:16)
+    at TraversalContext.visitMultiple (.\node_modules\@babel\traverse\lib\context.js:61:17)
+    at TraversalContext.visit (.\node_modules\@babel\traverse\lib\context.js:110:19)
+    at traverseNode (.\node_modules\@babel\traverse\lib\traverse-node.js:22:17)
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39minfo => Copying static files: test-results\chromatic-archives\archive at ..\..\AppData\Local\Temp\chromatic--71136-ahgFaTZ66y6R
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   794.ca7dcd54.iframe.bundle.js (1.01 MiB)
+info => Preview built (3.37 s)

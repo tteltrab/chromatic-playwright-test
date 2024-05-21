@@ -1,0 +1,158 @@
+nbart:chromatic-test (main *)$ pnpm chromatic --playwright --project-token=chpt_ed077c727bc1632 --debug
+
+00:26:35.943  Chromatic CLI v11.3.5
+              https://www.chromatic.com/docs/cli
+
+00:26:36.171  Authenticating with Chromatic
+00:26:36.171      → Connecting to https://index.chromatic.com
+00:26:36.389  Authenticated with Chromatic
+                  → Using project token '****************1632'
+00:26:36.390  Retrieving git information
+00:26:36.501  git info: {"commit":{"commit":"1552b35077c75e43921e3a664808888e19c27115","committedAt":1716250648000,"committerEmail":"nbartlett7@gmail.com","committerName":"Nick Bartlett"},"branch":"main","fromCI":false}
+00:26:36.670  App firstBuild: %o, lastBuild: %o null null
+00:26:36.671  App has no builds, returning []
+00:26:36.671  Found parentCommits: 
+00:26:36.751  Retrieved git information
+                  → Commit '1552b35' on branch 'main'; no ancestor found
+00:26:36.751  Collecting Storybook metadata
+00:26:36.752  No viewlayer package listed in dependencies. Checking transitive dependencies.
+00:26:36.754  [{"status":"fulfilled","value":{"addons":[{"name":"unknown","packageName":"unknown","packageVersion":"0"}]}},{"status":"fulfilled","value":{}},{"status":"rejected","reason":{}},{"status":"fulfilled","value":{"builder":{"name":"unknown","packageVersion":"0"}}}]
+00:26:36.754  Collected Storybook metadata
+                  → ; using the unknown builder (0); supported addons found: Unknown
+00:26:36.754  Initializing build
+00:26:36.755  Got environment:
+              {}
+00:26:37.253  Initialized build
+                  → Build 4 initialized
+here false
+00:26:37.261  Building your Storybook
+00:26:37.261      → Running command: node C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\bin\build-archive-storybook.js --output-dir C:\Users\nbart\AppData\Local\Temp\chromatic--70156-dFckUBFBFO1j
+00:26:37.261      → [*                   ]
+00:26:37.262  Running build command: node C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\bin\build-archive-storybook.js --output-dir C:\Users\nbart\AppData\Local\Temp\chromatic--70156-dFckUBFBFO1j
+00:26:37.262  Runtime metadata: {
+                "nodePlatform": "win32",
+                "nodeVersion": "20.11.1",
+                "packageManager": "pnpm",
+                "packageManagerVersion": "9.1.1"
+              }
+00:26:39.356      ✖ Failed to run `chromatic --playwright`:
+
+                  Command failed with exit code 1: node C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\bin\build-archive-storybook.js --output-dir C:\Users\nbart\AppData\Local\Temp\chromatic--70156-dFckUBFBFO1j
+              <s> [webpack.Progress] 0% 
+
+              <s> [webpack.Progress] 1% setup before run
+              <s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+              <s> [webpack.Progress] 1% setup before run
+              <s> [webpack.Progress] 2% setup run
+              <s> [webpack.Progress] 2% setup run
+              <s> [webpack.Progress] 4% setup normal module factory
+              <s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+              <s> [webpack.Progress] 4% setup normal module factory
+              <s> [webpack.Progress] 5% setup context module factory
+              <s> [webpack.Progress] 5% setup context module factory
+              <s> [webpack.Progress] 6% setup before compile
+              <s> [webpack.Progress] 6% setup before compile ProgressPlugin
+              <s> [webpack.Progress] 6% setup before compile
+              <s> [webpack.Progress] 7% setup compile
+              <s> [webpack.Progress] 7% setup compile ExternalsPlugin
+              <s> [webpack.Progress] 7% setup compile ExternalsPlugin
+              <s> [webpack.Progress] 7% setup compile
+              <s> [webpack.Progress] 8% setup compilation
+              <s> [webpack.Progress] 8% setup compilation unplugin-csf
+              <s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+              <s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+              <s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+              <s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+              <s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+              <s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+              <s> [webpack.Progress] 8% setup compilation WorkerPlugin
+              <s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+              <s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+              <s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+              <s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+              <s> [webpack.Progress] 8% setup compilation
+              <s> [webpack.Progress] 9% setup compilation
+              <s> [webpack.Progress] 9% setup compilation DefinePlugin
+              <s> [webpack.Progress] 9% setup compilation ProvidePlugin
+              <s> [webpack.Progress] 9% setup compilation ProgressPlugin
+              <s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+              <s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+              <s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation EntryPlugin
+              <s> [webpack.Progress] 9% setup compilation RuntimePlugin
+              <s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation DataUriPlugin
+              <s> [webpack.Progress] 9% setup compilation FileUriPlugin
+              <s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+              <s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation AMDPlugin
+              <s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+              <s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+              <s> [webpack.Progress] 9% setup compilation LoaderPlugin
+              <s> [webpack.Progress] 9% setup compilation LoaderPlugin
+              <s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+              <s> [webpack.Progress] 9% setup compilation APIPlugin
+              <s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+              <s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+              <s> [webpack.Progress] 9% setup compilation ConstPlugin
+              <s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+              <s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+              <s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+              <s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+              <s> [webpack.Progress] 9% setup compilation ImportPlugin
+              <s> [webpack.Progress] 9% setup compilation ImportMetaContextPlugin
+              <s> [webpack.Progress] 9% setup compilation SystemPlugin
+              <s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+              <s> [webpack.Progress] 9% setup compilation URLPlugin
+              <s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+              <s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+              <s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+              <s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+              <s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+              <s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+              <s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+              <s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+              <s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+              <s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+              <s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+              <s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+              <s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+              <s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+              <s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+              <s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+              <s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+              <s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+              <s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+              <s> [webpack.Progress] 9% setup compilation DefinePlugin
+              <s> [webpack.Progress] 9% setup compilation TerserPlugin
+              <s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+              <s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+              <s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+              <s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+              <s> [webpack.Progress] 9% setup compilation
+              <s> [webpack.Progress] 10% building
+              <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+              <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/@storybook+preset-server-webpack@8.1.1_prettier@3.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@storybook/preset-server-webpack/dist/loader.js
+              <s> [webpack.Progress] 10% building 0/1 entries 47/52 dependencies 13/31 modules
+              node:internal/errors:932
+              const err = new Error(message);
+                          ^
+
+              Error: Command failed: node C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\storybook@8.1.1_@babel+preset-env@7.24.5_@babel+core@7.24.5__react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\storybook\index.js build --output-dir C:\Users\nbart\AppData\Local\Temp\chromatic--70156-dFckUBFBFO1j -c C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\storybook-config
+                at checkExecSyncError (node:child_process:890:11)
+                at Object.execFileSync (node:child_process:926:15)
+                at C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\bin\build-archive-storybook.js:15:2761 {
+              status: 1,
+              signal: null,
+              output: [ null, null, null ],
+              pid: 71352,
+              stdout: null,
+              stderr: null
+              }
+
+              Node.js v20.11.1
+00:26:39.359      → Command failed: node C:\Users\nbart\dev\chromatic-test\node_modules\.pnpm\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\node_modules\@chromatic-com\playwright\dist\bin\build-archive-storybook.js --output-dir C:\Users\nbart\AppData\Local\Temp\chromatic--70156-dFckUBFBFO1j  
+00:26:39.368  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
+warning: in the working copy of 'build-storybook.log', LF will be replaced by CRLF the next time Git touches it

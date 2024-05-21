@@ -1,0 +1,56 @@
+00:18:00.721  Chromatic CLI v11.3.5
+              https://www.chromatic.com/docs/cli 
+ 
+00:18:00.954  Authenticating with Chromatic 
+00:18:00.954      → Connecting to https://index.chromatic.com
+00:18:01.106  Authenticated with Chromatic
+                  → Using project token '****************1632'
+00:18:01.107  Retrieving git information
+00:18:01.221  git info: {"commit":{"commit":"1552b35077c75e43921e3a664808888e19c27115","committedAt":1716250648000,"committerEmail":"nbartlett7@gmail.com","committerName":"Nick Bartlett"},"branch":"main","fromCI":false}
+00:18:01.395  App firstBuild: %o, lastBuild: %o null null
+00:18:01.395  App has no builds, returning []
+00:18:01.395  Found parentCommits:
+00:18:01.483  Retrieved git information
+                  → Commit '1552b35' on branch 'main'; no ancestor found
+00:18:01.484  Collecting Storybook metadata
+00:18:01.485  No viewlayer package listed in dependencies. Checking transitive dependencies.
+00:18:01.487  [{"status":"fulfilled","value":{"addons":[{"name":"unknown","packageName":"unknown","packageVersion":"0"}]}},{"status":"fulfilled","value":{}},{"status":"rejected","reason":{}},{"status":"fulfilled","value":{"builder":{"name":"unknown","packageVersion":"0"}}}]
+00:18:01.487  Collected Storybook metadata
+                  → ; using the unknown builder (0); supported addons found: Unknown
+00:18:01.487  Initializing build
+00:18:01.488  Got environment:
+              {}
+00:18:02.074  Initialized build
+                  → Build 3 initialized
+00:18:02.085  Building your Storybook
+00:18:02.085      → Running command: node /c//Users/nbart/dev/chromatic-test/node_modules/.pnpm/@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu/node_modules/@chromatic-com/playwright/dist/bin/build-archive-storybook.js --output-dir /c//Users/nbart/AppData/Local/Temp/chromatic--70996-63Igu9KkH6w3
+00:18:02.086      → [*                   ]
+00:18:02.086  Running build command: node /c//Users/nbart/dev/chromatic-test/node_modules/.pnpm/@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu/node_modules/@chromatic-com/playwright/dist/bin/build-archive-storybook.js --output-dir /c//Users/nbart/AppData/Local/Temp/chromatic--70996-63Igu9KkH6w3
+00:18:02.087  Runtime metadata: {
+                "nodePlatform": "win32",
+                "nodeVersion": "20.11.1",
+                "packageManager": "pnpm",
+                "packageManagerVersion": "9.1.1"
+              }
+00:18:12.088      → [ *                  ]
+00:18:22.099      → [  *                 ]
+00:18:32.103      → [   *                ]
+00:18:42.116      → [    *               ]
+00:18:52.118      → [     *              ]
+00:19:02.129      → [      *             ]
+00:19:12.143      → [       *            ]
+00:19:22.159      → [        *           ]
+00:19:32.174      → [         *          ]
+00:19:42.189      → [          *         ]
+00:19:52.201      → [           *        ]
+00:20:02.206      → [            *       ]
+00:20:12.209      → [             *      ]
+00:20:22.213      → [              *     ]
+00:20:32.220      → [               *    ]
+00:20:42.227      → [                *   ]
+00:20:52.240      → [                 *  ]
+00:21:02.245      → [                  * ]
+00:21:12.252      → [                   *]
+00:21:22.261      → [                  * ]
+00:21:32.267      → [                 *  ]
+00:21:42.276      → [                *   ]

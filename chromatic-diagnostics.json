@@ -1,0 +1,115 @@
+{
+  "activity": {},
+  "announcedBuild": {
+    "id": "664bea3d5715a20e1f2bfd03",
+    "number": 4,
+    "status": "ANNOUNCED",
+    "autoAcceptChanges": false,
+    "app": {
+      "id": "664be3daa9ccdbaee6776520",
+      "turboSnapAvailability": "UNAVAILABLE"
+    }
+  },
+  "buildCommand": "node C:\\Users\\nbart\\dev\\chromatic-test\\node_modules\\.pnpm\\@chromatic-com+playwright@0.6.7_@babel+preset-env@7.24.5_@babel+core@7.24.5__@playwright+test_5olcbfv4pgsjbfkqjknq6pmjmu\\node_modules\\@chromatic-com\\playwright\\dist\\bin\\build-archive-storybook.js --output-dir C:\\Users\\nbart\\AppData\\Local\\Temp\\chromatic--70156-dFckUBFBFO1j",
+  "buildLogFile": "C:\\Users\\nbart\\dev\\chromatic-test\\build-storybook.log",
+  "configuration": {},
+  "environment": {},
+  "exitCode": 51,
+  "exitCodeKey": "E2E_BUILD_FAILED",
+  "flags": {
+    "playwright": true,
+    "debug": true,
+    "outputDir": [],
+    "storybookBuildDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "fileHashing": true,
+    "interactive": true,
+    "appCode": []
+  },
+  "git": {
+    "version": "2.44.0.windows.1",
+    "gitUserEmail": "nbartlett7@gmail.com",
+    "uncommittedHash": "fatal: ambiguous argument 'diff': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\ne69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "commit": "1552b35077c75e43921e3a664808888e19c27115",
+    "committedAt": 1716250648000,
+    "committerEmail": "nbartlett7@gmail.com",
+    "committerName": "Nick Bartlett",
+    "branch": "main",
+    "slug": "tteltrab/chromatic-playwright-test",
+    "fromCI": false,
+    "parentCommits": []
+  },
+  "input": [],
+  "isOnboarding": false,
+  "options": {
+    "fromCI": false,
+    "inAction": false,
+    "dryRun": false,
+    "debug": true,
+    "autoAcceptChanges": false,
+    "exitZeroOnChanges": false,
+    "exitOnceUploaded": false,
+    "diagnosticsFile": "chromatic-diagnostics.json",
+    "fileHashing": true,
+    "interactive": false,
+    "isLocalBuild": false,
+    "originalArgv": [
+      "--playwright",
+      "--project-token=chpt_ed077c727bc1632",
+      "--debug"
+    ],
+    "logFile": "chromatic.log",
+    "forceRebuild": true,
+    "playwright": true,
+    "storybookLogFile": "build-storybook.log",
+    "branchName": ""
+  },
+  "packageJson": {
+    "name": "chromatic-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "playwright test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@chromatic-com/playwright": "^0.6.7",
+      "@playwright/test": "^1.44.0",
+      "@types/node": "^20.12.12",
+      "chromatic": "^11.3.5"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "chromatic-test@1.0.0"
+  },
+  "packagePath": "C:\\Users\\nbart\\dev\\chromatic-test\\package.json",
+  "runtimeMetadata": {
+    "nodePlatform": "win32",
+    "nodeVersion": "20.11.1",
+    "packageManager": "pnpm",
+    "packageManagerVersion": "9.1.1"
+  },
+  "sessionId": "b969b527-f80d-4902-8694-d31de3d26614",
+  "sourceDir": "C:\\Users\\nbart\\AppData\\Local\\Temp\\chromatic--70156-dFckUBFBFO1j",
+  "startedAt": 1716251197254,
+  "storybook": {
+    "addons": [
+      {
+        "name": "unknown",
+        "packageName": "unknown",
+        "packageVersion": "0"
+      }
+    ],
+    "builder": {
+      "name": "unknown",
+      "packageVersion": "0"
+    }
+  },
+  "task": "build",
+  "userError": true
+}
